@@ -1,0 +1,34 @@
+#+TITLE: xsh.fish
+#+LATEX: \pagebreak
+
+* Overview
+
+  [[https://github.com/trogdoro/xiki][Xiki]] includes a wrapper script ~xsh~ that works with many shells, but not
+  ~fish~. This module adds a function that works (mostly) the same way.
+
+* Installation
+
+  #+BEGIN_SRC shell
+    fisher install colstrom/xsh.fish
+  #+END_SRC
+
+* Differences from reference implementation
+
+  - ~xsh.fish~ does not make any attempt to resolve dependencies. At best, the
+    reference implementation was incomplete. It worked with some package
+    managers, but not with others. The inconsistency of package names across
+    distributions did not help.
+
+* Requirements
+
+  - ruby 1.9.3 or newer
+  - emacs 23 or newer
+
+* License
+
+  The contents of this repository are available under the [[https://tldrlegal.com/license/mit-license][MIT License]]. See
+  ~LICENSE.txt~ for the full text. Xiki has its own license.
+
+* Contributors
+
+  - [[https://colstrom.github.io/][Chris Olstrom]] | [[mailto:chris@olstrom.com][e-mail]] | [[https://twitter.com/ChrisOlstrom][Twitter]]
